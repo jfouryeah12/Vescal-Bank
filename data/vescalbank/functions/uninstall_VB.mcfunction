@@ -1,0 +1,4 @@
+scoreboard objectives remove balance
+scoreboard objectives remove transfer
+scoreboard objectives remove vbank_help
+scoreboard objectives remove vescalbank.player_balance
