@@ -13,5 +13,3 @@ scoreboard players set @s convert_emerald 0
 
 #title
 #tellraw @s {"text":"==== Convert Emerald \ud83e\ude99 ===","color":"gold"}
-#choices
-#tellraw @a {"text":"[10E]🚙","color":"dark_green","clickEvent":{"action":"run_command","value":"/execute run function vescalbank:32e"}}
