@@ -9,7 +9,9 @@ execute run scoreboard players enable @a balance
 execute run scoreboard players enable @a vbank_help
 
 execute as @a[scores={balance=1..}] run function vescalbank:player_balance
-execute as @a[scores={convert_emerald=1..}] run function vescalbank:convert_emerald
+execute as @a[scores={vbank_help=1..}] run function vescalbank:help
+#execute as @a[scores={convert_emerald=1..}] run function vescalbank:convert_emerald
+execute as @a[scores={vescalbank.player_balance=-1000}] run function vescalbank:debt_config
 #execute as @a[scores={review_ts=1..}] run function vescalbank:player_transfer
 execute unless entity @p[nbt={SelectedItem:{id:"minecraft:emerald"}}] run function vescalbank:no_money
 
