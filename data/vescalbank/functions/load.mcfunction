@@ -16,6 +16,9 @@ scoreboard players add @a ID 0
 execute as @p[scores={ID=0..}] run scoreboard players add #NextID ID 1
 scoreboard players operation @p[scores={ID=0..}] ID = #NextID ID
 
+#Wallet of the Government
+scoreboard players add VescalGovernment vescalbank.player_balance 0
+
 #Debug Account
 #scoreboard objectives modify transfer displayname {"text":"Transfer ID","color":"aqua"}
 #scoreboard objectives setdisplay sidebar transfer 

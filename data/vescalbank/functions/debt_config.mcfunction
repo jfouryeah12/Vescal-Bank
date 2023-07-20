@@ -8,6 +8,8 @@ title @s actionbar ["",{"text":"You have reached the maximum ","color":"light_pu
 #team join
 team add slave ["",{"text":"[","color":"dark_red"},{"text":"Slave","color":"light_purple"},{"text":"]","color":"dark_red"}]
 item replace entity @s armor.head with minecraft:bowl 1
+team modify slave prefix ["",{"text":"[","color":"dark_red","hoverEvent":{"action":"show_text","contents":"This person is now the property of Vescal. To rectify this, he/she needs to pay twice the amount of their current debt."}},{"text":"Slave","color":"red","hoverEvent":{"action":"show_text","contents":"This person is now the property of Vescal. To rectify this, he/she needs to pay twice the amount of their current debt."}},{"text":"]","color":"dark_red","hoverEvent":{"action":"show_text","contents":"This person is now the property of Vescal. To rectify this, he/she needs to pay twice the amount of their current debt."}}]
+team join slave @s
 #play sound execution
 playsound minecraft:entity.blaze.ambient master @s ~ ~ ~
 
