@@ -1,2 +1,2 @@
 tellraw @s ["",{"text":"==================","color":"light_purple"},{"text":"\n"},{"text":"VESCAL GOVERNMENT","color":"gold"},{"text":"\n"},{"text":"==================","color":"light_purple"}]
-scoreboard players get VescalGovernment vescalbank.player_balance
+tellraw @s [{"text":"Balance: ","color":"light_purple"},{"score":{"name":"VescalGovernment","objective":"vescalbank.player_balance"},"color":"aqua"},{"text":" 🪙","color":"gold"}]
